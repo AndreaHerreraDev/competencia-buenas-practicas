@@ -25,3 +25,4 @@ Esta sección del repositorio contiene la documentación, evidencias y matrices 
 * [TARE-006](TARE-006.md) - Clasificación de tareas vencidas (Empleado).
 * [TARE-007](TARE-007.md) - Reapertura de Tareas (Administrador).
 * [TARE-008](TARE-008.md) - Memorandos automáticos (Administrador)
+* [TARE-009](TARE-009.md) - Intento de ingreso con rol empleado a panel administrador, mediante la manipulación de la  URL (Empleado)
