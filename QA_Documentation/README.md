@@ -17,3 +17,4 @@ Esta sección del repositorio contiene la documentación, evidencias y matrices 
 
 ## Índice de Pruebas
 * [TARE-001](TARE-001.md) - Validación de Panel de Tareas (Administrador)
+* [TARE-002](TARE-002.md) - Creación y asignación de tareas
