@@ -16,7 +16,10 @@ Aquí documento el proceso de aseguramiento de calidad (QA) del sistema de gesti
 Esta sección del repositorio contiene la documentación, evidencias y matrices de pruebas realizadas para garantizar la calidad del sistema OperPan.
 
 ## Índice de Pruebas
-* [TARE-001](TARE-001.md) - Validación de Panel de Tareas (Administrador)
-* [TARE-002](TARE-002.md) - Creación y asignación de tareas
-* [TARE-003](TARE-003.md) - Ciclo de vida de tareas (Empleado)
-* [TARE-004](TARE-004.md) - Creación y validación de horas límite en tareas (Administrador)cuando la hora límite esté fuera del rango de jornada del empleado.
+
+* [TARE-001](TARE-001.md) - Validación de Panel de Tareas (Administrador).
+* [TARE-002](TARE-002.md) - Creación y asignación de tareas (Administrador).
+* [TARE-003](TARE-003.md) - Ciclo de vida de tareas (Empleado).
+* [TARE-004](TARE-004.md) - Validación de horas límite en tareas (Administrador).
+* [TARE-005](TARE-005.md) - Validación de fecha límite anterior a hoy (Administrador).
+* [TARE-006](TARE-006.md) - Clasificación de tareas vencidas (Empleado).
