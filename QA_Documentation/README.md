@@ -17,6 +17,8 @@ Esta sección del repositorio contiene la documentación, evidencias y matrices 
 
 ## Índice de Pruebas
 
+### Módulo de Tareas
+
 * [TARE-001](TARE-001.md) - Validación de Panel de Tareas (Administrador).
 * [TARE-002](TARE-002.md) - Creación y asignación de tareas (Administrador).
 * [TARE-003](TARE-003.md) - Ciclo de vida de tareas (Empleado).
@@ -26,3 +28,7 @@ Esta sección del repositorio contiene la documentación, evidencias y matrices 
 * [TARE-007](TARE-007.md) - Reapertura de Tareas (Administrador).
 * [TARE-008](TARE-008.md) - Memorandos automáticos (Administrador)
 * [TARE-009](TARE-009.md) - Intento de ingreso con rol empleado a panel administrador, mediante la manipulación de la  URL (Empleado)
+
+
+### Módulo de Cuentas
+* [CUEN-001](CUEN-001.md) - Carga del panel y validación de indicadores.
