@@ -19,3 +19,4 @@ Esta sección del repositorio contiene la documentación, evidencias y matrices 
 * [TARE-001](TARE-001.md) - Validación de Panel de Tareas (Administrador)
 * [TARE-002](TARE-002.md) - Creación y asignación de tareas
 * [TARE-003](TARE-003.md) - Ciclo de vida de tareas (Empleado)
+* [TARE-004](TARE-004.md) - Creación y validación de horas límite en tareas (Administrador)cuando la hora límite esté fuera del rango de jornada del empleado.
