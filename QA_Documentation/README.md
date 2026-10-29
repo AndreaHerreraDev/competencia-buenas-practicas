@@ -23,3 +23,4 @@ Esta sección del repositorio contiene la documentación, evidencias y matrices 
 * [TARE-004](TARE-004.md) - Validación de horas límite en tareas (Administrador).
 * [TARE-005](TARE-005.md) - Validación de fecha límite anterior a hoy (Administrador).
 * [TARE-006](TARE-006.md) - Clasificación de tareas vencidas (Empleado).
+* [TARE-007](TARE-007.md) - Reapertura de Tareas (Administrador).
