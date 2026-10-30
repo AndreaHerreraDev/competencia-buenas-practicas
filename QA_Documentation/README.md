@@ -32,3 +32,4 @@ Esta sección del repositorio contiene la documentación, evidencias y matrices 
 
 ### Módulo de Cuentas
 * [CUEN-001](CUEN-001.md) - Carga del panel y validación de indicadores.
+* [CUEN-002](CUEN-002.md) - reporte CUEN-002 sobre creacion de cuenta y cambio de contraseña obligatorio
