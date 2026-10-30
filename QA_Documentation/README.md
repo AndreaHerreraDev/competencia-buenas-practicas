@@ -35,3 +35,4 @@ Esta sección del repositorio contiene la documentación, evidencias y matrices 
 * [CUEN-002](CUEN-002.md) - reporte CUEN-002 sobre creacion de cuenta y cambio de contraseña obligatorio.
 * [CUEN-002](CUEN-002.md) - Visualización del detalle de un usuario desde módulo cuentas(Administrador).
 * [CUEN-004](CUEN-004.md) - Validación de campos obligatorios vacíos.
+* [CUEN-005](CUEN-005.md) - Validación de documento duplicado.
