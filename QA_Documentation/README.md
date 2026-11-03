@@ -36,3 +36,8 @@ Esta sección del repositorio contiene la documentación, evidencias y matrices 
 * [CUEN-002](CUEN-002.md) - Visualización del detalle de un usuario desde módulo cuentas(Administrador).
 * [CUEN-004](CUEN-004.md) - Validación de campos obligatorios vacíos.
 * [CUEN-005](CUEN-005.md) - Validación de documento duplicado.
+* [CUEN-006](CUEN-006.md) - Validación de nombre de usuario duplicado.
+* [CUEN-007](CUEN-007.md) - Suspensión de cuenta y bloqueo de acceso.
+* [CUEN-008](CUEN-008.md) - Retiro de empleado e historial.
+* [CUEN-009](CUEN-009.md) - Reincorporación de empleado.
+* [CUEN-010](CUEN-010.md) - Control de acceso al módulo de Cuentas.
