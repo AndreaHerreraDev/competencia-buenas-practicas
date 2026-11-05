@@ -22,4 +22,3 @@ El formulario bloqueó el envío debido a la validación de otros campos obligat
 ## 4. Conclusión del QA
 **Estado:** `APROBADA` 
 **Observaciones:** El sistema previene el guardado de datos incompletos. Sin embargo, queda pendiente un Retest específico para la validación de duplicidad: es necesario completar todos los campos requeridos (Rol, fechas, etc.) manteniendo el username `martina` para verificar el mensaje de error específico del backend. 
-

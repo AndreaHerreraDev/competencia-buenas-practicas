@@ -13,32 +13,35 @@
 ## 1. Objetivo de la Prueba
 Verificar que el sistema rechace la creación de una cuenta cuando se ingrese un número de documento que ya pertenece a otro empleado.
 
-## 2. Precondiciones
-*   Empleado ya registrado en el sistema (Viviana Gil - Doc: 9895777086).
-*   Formulario de creación accesible.
-
-## 3. Pasos Ejecutados
+## 2. Pasos Ejecutados
 1. Abrir el modal de "Crear cuenta".
 2. Llenar los datos del formulario.
 3. En el campo "Número de Documento", ingresar el documento de Viviana (`9895777086`).
 4. Intentar guardar.
-5. Verificar el mensaje mostrado en pantalla.
-6. Consultar la base de datos para comprobar si el duplicado se insertó.
 
-## 4. Resultado Esperado
-El sistema debe rechazar la creación y mostrar un mensaje específico: "Este número de documento ya está registrado".
+## 3. Resultado Obtenido (Pre-Fix)
+![El sistema bloqueaba el guardado, pero mostraba un mensaje ambiguo (*"Corregir los errores del formulario](img/corrige_los_errores_formulario.png)
 
-## 5. Resultado Obtenido (Evidencia Frontend)
-![captura del Toast rojo "Corregir los errores del formulario"](img/errores_del_formulario.png)
+## 4. Conclusión del QA
+**Estado Final:** `APROBADA` ✅ (Tras Retest)
 
-**Descripción del resultado visual:**
-El sistema frena el guardado y muestra un Toast genérico en la parte superior derecha. No se genera un segundo perfil en la base de datos (comprobado con SQL).
+---
 
-## 6. Conclusión del QA
-**Estado de la Prueba:** `FALLIDA` (Bug de UX)
+## 5. Historial del Bug y Retest (Post-Fix)
 
-**Observaciones:**
-**Bug detectado:** El backend protege correctamente la integridad de los datos impidiendo duplicados (Excelente), pero el Frontend no maneja el error de forma amigable. El mensaje "Corregir los errores del formulario" es ambiguo. Se recomienda añadir una validación en el `forms.py` de Django que devuelva un mensaje claro al usuario: "El número de documento ya está en uso".
+**Fecha del Bug:** 29-10-2026
+**Fecha del Retest:** 05-11-2026
+
+**Descripción del Bug (UX):** 
+El sistema impedía correctamente la creación de documentos duplicados a nivel de base de datos, pero la interfaz no notificaba al usuario la causa específica del error.
+
+**Solución Implementada (Dev):**
+Se modificó la vista `user_list_create` en `views.py`. Se reemplazó el mensaje de error genérico por un bucle que extrae y muestra los errores específicos de validación de los formularios (`user_form.errors` y `perfil_form.errors`).
+
+**Resultado del Retest:**
+![Inserta la captura NUEVA del mensaje específico: "Error en numero_documento..."](img/error_en_doc.png)
+
+El sistema ahora muestra un mensaje claro: **"Error en numero_documento: Ya existe un empleado con ese documento."** El usuario comprende de inmediato qué falló. La integridad de los datos se mantiene y la experiencia de usuario (UX) ha sido optimizada.
 
 ---
 *Documentación generada por: Andrea Herrera (QA)*
