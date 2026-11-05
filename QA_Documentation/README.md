@@ -41,3 +41,20 @@ Esta sección del repositorio contiene la documentación, evidencias y matrices 
 * [CUEN-008](CUEN-008.md) - Retiro de empleado e historial.
 * [CUEN-009](CUEN-009.md) - Reincorporación de empleado.
 * [CUEN-010](CUEN-010.md) - Control de acceso al módulo de Cuentas.
+
+### Módulo de Información Personal
+* [INFO-001](INFO-001.md) - Carga del perfil (Camino básico).
+* [INFO-002](INFO-002.md) - Edición de perfil (Bug de validación encontrado).
+* [INFO-003](INFO-003.md) - Cambio de contraseña.
+* [INFO-004](INFO-004.md) - Validación de correo inválido.
+* [INFO-005](INFO-005.md) - Validación de teléfono inválido (Bug encontrado).
+* [INFO-006](INFO-006.md) - Validación de contraseña (reglas mínimas).
+* [INFO-007](INFO-007.md) - Persistencia de datos.
+* [INFO-008](INFO-008.md) - Aislamiento de datos (Seguridad IDOR).
+* [INFO-002-CORRECCIÓN](INFO-002-CORRECCION.md) - Retest: Corrección de bug de edición.
+* [INFO-005-CORRECCIÓN](INFO-005-CORRECCION.md) - Retest: Corrección de bug de teléfono.
+
+
+
+---
+*Nota: La carpeta `Archivo_Practicas_Competencia` contiene ejercicios y documentación de prácticas previas relacionadas con bases de datos y migración, como parte de mi formación técnica.*
