@@ -41,6 +41,7 @@ Esta sección del repositorio contiene la documentación, evidencias y matrices 
 * [CUEN-008](CUEN-008.md) - Retiro de empleado e historial.
 * [CUEN-009](CUEN-009.md) - Reincorporación de empleado.
 * [CUEN-010](CUEN-010.md) - Control de acceso al módulo de Cuentas.
+* [CUEN-011](CUEN-011-PPT.md) - Validación de documento PPT (7 dígitos).
 
 ### Módulo de Información Personal
 * [INFO-001](INFO-001.md) - Carga del perfil (Camino básico).
